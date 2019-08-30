@@ -1,0 +1,16 @@
+import personas.*
+import objetos.*
+
+test "gustos de Rosa"{
+	assert.equals(true, rosa.leGusta(remera))
+	assert.equals(false, rosa.leGusta(biblioteca))
+	assert.equals(true, rosa.leGusta(pelota))
+	assert.equals(true, rosa.leGusta(munieco))
+	assert.equals(false, rosa.leGusta(placa))
+}
+
+test "gustos de Estefania"{
+	assert.equals(true, estefania.leGusta(placa))
+	assert.equals(true, estefania.leGusta(biblioteca))
+	
+}

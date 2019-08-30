@@ -28,4 +28,6 @@ object bolichito {
 	method puedeOfrecerleAlgoA(persona) {
 		// completar
 	}
+	
+	
 }
